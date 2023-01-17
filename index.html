@@ -4,13 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- swiper styles-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <!-- splide styles-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-    <!-- parallax-->
     <!-- my styles-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <title>New Site</title>
   </head>
 </html>
@@ -18,16 +15,16 @@
   <div class="progress-circle">
     <div class="progress-circle__block">
       <svg class="progress-ring" width="86" height="86">
-        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="35"></circle>
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
       </svg>
-      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="26" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="26" height="36"></div>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
     </div>
   </div>
   <header class="header">
     <div class="header__container container">
-      <div class="header__logo-block"><a href="#"><img class="header__logo-block-image" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
+      <div class="header__logo-block"><a href="#"><img class="header__logo-block-image header__logo-block-image--black" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a><a href="#"><img class="header__logo-block-image header__logo-block-image--white" src="./assets/images/header/header-logo--white.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
       <div class="header__burger-block">
-        <div class="header__burger"><span></span><span></span><span></span></div>
+        <div class="header__burger"><span class="header__burger-span"></span><span class="header__burger-span"></span><span class="header__burger-span"></span></div>
       </div>
       <div class="header__nav">
         <ul class="header__nav-list">
@@ -37,20 +34,32 @@
           <li class="header__nav-item"><a href="#">Контакты</a></li>
         </ul>
         <div class="header__contacts header__contacts--narrow">
-          <ul class="header__contacts-items">
-            <div class="header__contacts-item"><a href="#"><img class="header__contacts-item-image" src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
-            <div class="header__contacts-item"><a href="#"><img class="header__contacts-item-image" src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
-            <div class="header__contacts-item"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a>
+          <ul class="header__contacts-items header__contacts-item--icons">
+            <div class="header__contacts-item">
+              <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
+              <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/telegram--transparent--white.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
+            </div>
+            <div class="header__contacts-item">
+              <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
+              <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/whatsapp--transparent--white.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
+            </div>
+            <div class="header__contacts-item header__contacts-item--numbers"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a>
               <div class="header__contacts-item-back-call">Обратный звонок</div>
             </div>
           </ul>
         </div>
       </div>
       <div class="header__contacts header__contacts--wide">
-        <ul class="header__contacts-items">
-          <div class="header__contacts-item"><a href="#"><img class="header__contacts-item-image" src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
-          <div class="header__contacts-item"><a href="#"><img class="header__contacts-item-image" src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
-          <div class="header__contacts-item"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a>
+        <ul class="header__contacts-items header__contacts-item--icons">
+          <div class="header__contacts-item">
+            <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
+            <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/telegram--transparent--white.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
+          </div>
+          <div class="header__contacts-item">
+            <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
+            <div class="header__contacts-item--icon"><a href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/whatsapp--transparent--white.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
+          </div>
+          <div class="header__contacts-item header__contacts-item--numbers"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a>
             <div class="header__contacts-item-back-call">Обратный звонок</div>
           </div>
         </ul>
@@ -275,7 +284,11 @@
       </div>
       <div class="about-us__container container">
         <div class="about-us__left-side">
-          <div class="about-us__left-side-image-block"></div>
+          <!--img.about-us__left-side-image-block(-->
+          <!--    class="rellax" data-rellax-speed="-3" data-rellax-percentage="0.5"-->
+          <!--    src="assets/images/about-us/left-side-image.jpg" alt="Коллектив веб студии"-->
+          <!--    width="550" height="765"-->
+          <!--)--><img class="about-us__left-side-image-block" src="assets/images/about-us/left-side-image.jpg" alt="Коллектив веб студии" width="550" height="765">
         </div>
         <div class="about-us__right-side">
           <div class="about-us__right-side-content">
@@ -331,7 +344,7 @@
               <h3 class="section__title-title">Широкий перечень<br>услуг</h3>
             </div>
           </div>
-          <div class="section__titles__decoration-right"><img class="services__decoration-right-image" src="assets/images/services/decoration-right.svg" alt="Черная стрелка" width="125" height="120"></div>
+          <div class="section__titles__decoration-right"><img class="services__decoration-right-image services__decoration-right-image--parallax rellax" data-rellax-speed="-1" src="assets/images/services/decoration-right.svg" alt="Черная стрелка" width="125" height="120"></div>
         </div>
         <div class="services__list-block">
           <ul class="services__list">
@@ -556,19 +569,15 @@
       </div>
     </section>
     <section class="blog">
-      <!--img.products__decoration-circle(-->
-      <!--    src="assets/images/products/circle--big.svg" alt="Декоративные круги"-->
-      <!--    width="1880" height="1880"-->
-      <!--)-->
       <div class="blog__container container">
         <div class="section__titles section__titles__blog">
           <div class="section__titles-left">
             <div class="section__overtitle">
-              <p class="section__overtitle-text">Портфолио</p>
+              <p class="section__overtitle-text">Последние записи</p>
               <div class="section__overtitle-line"></div>
             </div>
             <div class="section__title">
-              <h3 class="section__title-title">Продукты студии</h3>
+              <h3 class="section__title-title">Блог агентства</h3>
             </div>
           </div>
           <div class="section__titles__decoration-right-text-block">
@@ -595,7 +604,6 @@
                   </div>
                   <div class="blog__items-item-visible-block-body">
                     <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
-                      <p class="blog__items-item-hidden-block-body-read-text">Читать статью</p><img class="blog__items-item-hidden-block-body-read" src="assets/images/blog/arrow-salad.svg" alt="Черная стрелка" width="14" height="14"></a><a class="blog__items-item-hidden-block-body-read-block" href="#">
                       <p class="blog__items-item-hidden-block-body-read-text">Читать статью</p><img class="blog__items-item-hidden-block-body-read" src="assets/images/blog/arrow-salad.svg" alt="Черная стрелка" width="14" height="14"></a>
                   </div>
                 </div>
@@ -712,7 +720,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 <!-- parallax-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- my js-->
 <script src="./assets/js/index.min.js"></script>
