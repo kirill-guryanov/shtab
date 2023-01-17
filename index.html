@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <!-- splide styles-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- parallax-->
     <!-- my styles-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>New Site</title>
   </head>
 </html>
 <body>
+  <div class="progress-circle">
+    <div class="progress-circle__block">
+      <svg class="progress-ring" width="86" height="86">
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="35"></circle>
+      </svg>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="26" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="26" height="36"></div>
+    </div>
+  </div>
   <header class="header">
     <div class="header__container container">
       <div class="header__logo-block"><a href="#"><img class="header__logo-block-image" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
@@ -79,7 +88,9 @@
                       <div class="intro__content-top-title">САЙТОВ</div>
                     </div>
                     <div class="intro__content-button-block">
-                      <button class="intro__content-button">Подробнее<img class="intro__content-button-image" src="./assets/images/intro/intro-arrow-in-button.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"></button>
+                      <button class="intro__content-button">Подробнее
+                        <div class="intro__content-button-block-images"><img class="intro__content-button-image" src="./assets/images/intro/intro-arrow-in-button.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"><img class="intro__content-button-image intro__content-button-image--salad" src="./assets/images/intro/intro-arrow-in-button--salad.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"></div>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -120,7 +131,9 @@
                       <div class="intro__content-top-title">САЙТОВ</div>
                     </div>
                     <div class="intro__content-button-block">
-                      <button class="intro__content-button">Подробнее<img class="intro__content-button-image" src="./assets/images/intro/intro-arrow-in-button.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"></button>
+                      <button class="intro__content-button">Подробнее
+                        <div class="intro__content-button-block-images"><img class="intro__content-button-image" src="./assets/images/intro/intro-arrow-in-button.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"><img class="intro__content-button-image intro__content-button-image--salad" src="./assets/images/intro/intro-arrow-in-button--salad.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"></div>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -161,7 +174,9 @@
                       <div class="intro__content-top-title">САЙТОВ</div>
                     </div>
                     <div class="intro__content-button-block">
-                      <button class="intro__content-button">Подробнее<img class="intro__content-button-image" src="./assets/images/intro/intro-arrow-in-button.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"></button>
+                      <button class="intro__content-button">Подробнее
+                        <div class="intro__content-button-block-images"><img class="intro__content-button-image intro__content-button-image--black" src="./assets/images/intro/intro-arrow-in-button.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"><img class="intro__content-button-image intro__content-button-image--salad" src="./assets/images/intro/intro-arrow-in-button--salad.svg" alt="Стрелка продолжить в кнопке" width="68" height="16"></div>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -295,11 +310,11 @@
                   задач
                 </li>
               </ul>
-            </div>
-            <div class="about-us__right-side-read-more">
+            </div><a class="about-us__right-side-read-more" href="#">
               <div class="about-us__right-side-read-more-circle"></div>
-              <div class="about-us__right-side-read-more-content"><a class="about-us__right-side-read-more" href="#">Узнать подробнее</a><img class="about-us__right-side-read-more-image" src="assets/images/about-us/arrow-read-more.svg" alt="Белая стрелка" width="23" height="23"></div>
-            </div>
+              <div class="about-us__right-side-read-more-content">
+                <p class="about-us__right-side-read-more">Узнать подробнее</p><img class="about-us__right-side-read-more-image" src="assets/images/about-us/arrow-read-more.svg" alt="Белая стрелка" width="23" height="23">
+              </div></a>
           </div>
         </div>
       </div>
@@ -472,12 +487,11 @@
             </li>
           </ul>
         </div>
-        <div class="services__bottom-button">
-          <div class="about-us__right-side-read-more">
+        <div class="services__bottom-button"><a class="about-us__right-side-read-more" href="#">
             <div class="about-us__right-side-read-more-circle services__read-more-circle"></div>
-            <div class="about-us__right-side-read-more-content"><a class="about-us__right-side-read-more about-us__right-side-read-more--black" href="#">Нужна консультация</a><img class="about-us__right-side-read-more-image" src="assets/images/blog/arrow-black.svg" alt="Черная стрелка" width="21" height="16"></div>
-          </div>
-        </div>
+            <div class="about-us__right-side-read-more-content">
+              <p class="about-us__right-side-read-more about-us__right-side-read-more--black">Нужна консультация</p><img class="about-us__right-side-read-more-image" src="assets/images/blog/arrow-black.svg" alt="Черная стрелка" width="21" height="16">
+            </div></a></div>
       </div>
     </section>
     <section class="products"><img class="products__decoration-circle" src="assets/images/products/circle--big.svg" alt="Декоративные круги" width="1880" height="1880">
@@ -505,12 +519,11 @@
           <div class="products__gallery-items-column-item products__gallery-items-column-item--flagman products__gallery-items-column-item--two"><img class="products__gallery-items-column-item-top-image products__gallery-items-column-item-top-image--flagman" src="assets/images/products/flagman-buildings.svg" alt="Картинка высоток" width="395" height="230"><img class="products__gallery-items-column-item-bottom-image products__gallery-items-column-item-bottom-image--flagman" src="assets/images/products/flagman-title.svg" alt="Логотип компании Flagman" width="363" height="160"></div>
           <div class="products__gallery-items-column-item products__gallery-items-column-item--logistic products__gallery-items-column-item--three"><img class="products__gallery-items-column-item-top-image products__gallery-items-column-item-top-image--logistic" src="assets/images/products/logistic-title.svg" alt="Логотип компании Logistic" width="354" height="113"><img class="products__gallery-items-column-item-bottom-image--logistic" src="assets/images/products/logistic-track.svg" alt="Картинка машины" width="437" height="314"></div>
         </div>
-        <div class="products__button-block">
-          <div class="about-us__right-side-read-more">
+        <div class="products__button-block"><a class="about-us__right-side-read-more" href="#">
             <div class="about-us__right-side-read-more-circle about-us__right-side-read-more-circle--products"></div>
-            <div class="about-us__right-side-read-more-content"><a class="about-us__right-side-read-more" href="#">Узнать подробнее</a><img class="about-us__right-side-read-more-image" src="assets/images/about-us/arrow-read-more.svg" alt="Белая стрелка" width="23" height="23"></div>
-          </div>
-        </div>
+            <div class="about-us__right-side-read-more-content">
+              <p class="about-us__right-side-read-more">Узнать подробнее</p><img class="about-us__right-side-read-more-image" src="assets/images/about-us/arrow-read-more.svg" alt="Белая стрелка" width="23" height="23">
+            </div></a></div>
       </div>
     </section>
     <section class="reviews"><img class="reviews__decoration-lines" src="assets/images/reviews/decoration-lines.svg" alt="Декоративные линии" width="1059" height="242"><img class="reviews__decoration-text" src="assets/images/reviews/decoration-reviews.svg" alt="Декоративный текст" width="158" height="613">
@@ -564,12 +577,11 @@
               бла бла бла бла бла не пропускайте последние обновления
             </p>
           </div>
-          <div class="section__titles__decoration-right section__titles__decoration-right--blog">
-            <div class="about-us__right-side-read-more">
+          <div class="section__titles__decoration-right section__titles__decoration-right--blog"><a class="about-us__right-side-read-more" href="#">
               <div class="about-us__right-side-read-more-circle about-us__right-side-read-more-circle--black"></div>
-              <div class="about-us__right-side-read-more-content"><a class="about-us__right-side-read-more about-us__right-side-read-more--black" href="#">Перейти в блог</a><img class="about-us__right-side-read-more-image" src="assets/images/blog/arrow-black.svg" alt="Черная стрелка" width="23" height="23"></div>
-            </div>
-          </div>
+              <div class="about-us__right-side-read-more-content">
+                <p class="about-us__right-side-read-more about-us__right-side-read-more--black">Перейти в блог</p><img class="about-us__right-side-read-more-image" src="assets/images/blog/arrow-black.svg" alt="Черная стрелка" width="23" height="23">
+              </div></a></div>
         </div>
         <div class="blog__items-block">
           <ul class="blog__items-list">
@@ -582,17 +594,8 @@
                     <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
                   </div>
                   <div class="blog__items-item-visible-block-body">
-                    <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                  </div>
-                </div>
-                <div class="blog__items-item-hidden-block">
-                  <div class="blog__items-item-visible-block-top">
-                    <div class="blog__items-item-hidden-block-top-title">SMM</div>
-                    <div class="blog__items-item-visible-block-top-circle"></div>
-                    <div class="blog__items-item-hidden-block-top-date">4 января 2023</div>
-                  </div>
-                  <div class="blog__items-item-visible-block-body blog__items-item-hidden-block-body">
-                    <div class="blog__items-item-hidden-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
+                    <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
+                      <p class="blog__items-item-hidden-block-body-read-text">Читать статью</p><img class="blog__items-item-hidden-block-body-read" src="assets/images/blog/arrow-salad.svg" alt="Черная стрелка" width="14" height="14"></a><a class="blog__items-item-hidden-block-body-read-block" href="#">
                       <p class="blog__items-item-hidden-block-body-read-text">Читать статью</p><img class="blog__items-item-hidden-block-body-read" src="assets/images/blog/arrow-salad.svg" alt="Черная стрелка" width="14" height="14"></a>
                   </div>
                 </div>
@@ -607,17 +610,7 @@
                     <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
                   </div>
                   <div class="blog__items-item-visible-block-body">
-                    <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                  </div>
-                </div>
-                <div class="blog__items-item-hidden-block">
-                  <div class="blog__items-item-visible-block-top">
-                    <div class="blog__items-item-hidden-block-top-title">SMM</div>
-                    <div class="blog__items-item-visible-block-top-circle"></div>
-                    <div class="blog__items-item-hidden-block-top-date">4 января 2023</div>
-                  </div>
-                  <div class="blog__items-item-visible-block-body blog__items-item-hidden-block-body">
-                    <div class="blog__items-item-hidden-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
+                    <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
                       <p class="blog__items-item-hidden-block-body-read-text">Читать статью</p><img class="blog__items-item-hidden-block-body-read" src="assets/images/blog/arrow-salad.svg" alt="Черная стрелка" width="14" height="14"></a>
                   </div>
                 </div>
@@ -632,17 +625,7 @@
                     <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
                   </div>
                   <div class="blog__items-item-visible-block-body">
-                    <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                  </div>
-                </div>
-                <div class="blog__items-item-hidden-block">
-                  <div class="blog__items-item-visible-block-top">
-                    <div class="blog__items-item-hidden-block-top-title">SMM</div>
-                    <div class="blog__items-item-visible-block-top-circle"></div>
-                    <div class="blog__items-item-hidden-block-top-date">4 января 2023</div>
-                  </div>
-                  <div class="blog__items-item-visible-block-body blog__items-item-hidden-block-body">
-                    <div class="blog__items-item-hidden-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
+                    <div class="blog__items-item-visible-block-body-text">Важность ведения страниц вашего бизнеса в социальных сетях</div><a class="blog__items-item-hidden-block-body-read-block" href="#">
                       <p class="blog__items-item-hidden-block-body-read-text">Читать статью</p><img class="blog__items-item-hidden-block-body-read" src="assets/images/blog/arrow-salad.svg" alt="Черная стрелка" width="14" height="14"></a>
                   </div>
                 </div>
@@ -650,12 +633,11 @@
             </li>
           </ul>
         </div>
-        <div class="blog__telegram">
-          <div class="about-us__right-side-read-more">
+        <div class="blog__telegram"><a class="about-us__right-side-read-more" href="#">
             <div class="about-us__right-side-read-more-circle blog__telegram__right-side-read-more-circle"></div>
-            <div class="about-us__right-side-read-more-content"><a class="about-us__right-side-read-more about-us__right-side-read-more--black" href="#">Читать в телеграм</a><img class="about-us__right-side-read-more-image" src="assets/images/blog/telegram.svg" alt="Телеграм" width="31" height="25"></div>
-          </div>
-        </div>
+            <div class="about-us__right-side-read-more-content">
+              <p class="about-us__right-side-read-more about-us__right-side-read-more--black">Читать в телеграм</p><img class="about-us__right-side-read-more-image" src="assets/images/blog/telegram.svg" alt="Телеграм" width="31" height="25">
+            </div></a></div>
       </div>
     </section>
   </main>
@@ -729,5 +711,8 @@
 <!-- splide script-->
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+<!-- parallax-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
 <!-- my js-->
 <script src="./assets/js/index.min.js"></script>
