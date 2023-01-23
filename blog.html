@@ -20,13 +20,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- splide styles-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- aos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css">
     <!-- my styles-->
-    <link rel="stylesheet" href="./assets/css/404.css">
-    <title>404</title>
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <title>New Site</title>
   </head>
 </html>
 <body>
-  <header class="header--main header--main-transparent">
+  <div class="progress-circle">
+    <div class="progress-circle__block">
+      <svg class="progress-ring" width="86" height="86">
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
+      </svg>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
+    </div>
+  </div>
+  <header class="header--main">
     <div class="header__container container">
       <div class="header__logo-block"><a href="index.html"><img class="header__logo-block-image header__logo-block-image--black" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a>
         <!--a( href="#" )-->
@@ -159,20 +171,126 @@
     </div>
   </div>
   <main>
-    <div class="intro404"><img class="intro404__decoration-line" src="assets/images/404/decoration-line.svg" alt="Фигурки" width="1159" height="1528"><img class="intro404__decoration-figures" src="assets/images/404/decoration-figures.svg" alt="Фигурки" width="125" height="120"><img class="intro404__decoration-circle" src="assets/images/404/decoration-circle.svg" alt="Круг" width="408" height="384"><img class="intro404__decoration-stars" src="assets/images/404/decoration-stars.svg" alt="Звезды" width="58" height="59">
-      <div class="intro404__container container">
-        <div class="intro404__content">
-          <h1 class="intro404__title">404</h1>
-          <h2 class="intro404__suptitle">Сожалеем, данной страницы нет</h2>
-          <p class="intro404__text">Страница, на которую вы попали, не существует или была перемещена</p>
-          <div class="intro404__button"><a class="about-us__right-side-read-more about-us__right-side-read-more--intro404" href="#">
-              <div class="about-us__right-side-read-more-circle services__read-more-circle services__read-more--black-border"></div>
-              <div class="about-us__right-side-read-more-content">
-                <p class="about-us__right-side-read-more about-us__right-side-read-more--black">Нужна консультация</p><img class="about-us__right-side-read-more-image" src="assets/images/blog/arrow-black.svg" alt="Черная стрелка" width="21" height="16">
-              </div></a></div>
+    <section class="blog__in-page"><img class="blog__in-page-decoration-circle" src="./assets/images/blog--page/decoration-circle.svg" alt="Декоративный круг" width="408" height="384"><img class="blog__in-page-decoration-circle-with-line" src="./assets/images/blog--page/decoration-circle-with-lines.svg" alt="Декоративный круг" width="548" height="548">
+      <div class="container container--blog__in-page">
+        <div class="blog__in-page-header">
+          <div class="blog__in-page-header--left">
+            <div class="blog__in-page-header--left-title">Блог</div>
+            <div class="blog__in-page-header--left-breadcrumbs"><a class="blog__in-page-header--left-breadcrumbs-item" href="#">
+                <div class="blog__in-page-header--left-breadcrumbs-item-text">Блог</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="./assets/images/blog--page/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a><a class="blog__in-page-header--left-breadcrumbs-item blog__in-page-header--left-breadcrumbs-item--not-arrow" href="#">
+                <div class="blog__in-page-header--left-breadcrumbs-item-text">Все записи</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="./assets/images/blog--page/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a></div>
+          </div>
+          <div class="blog__in-page-header--right">
+            <ul class="blog__in-page-header--right-items">
+              <li class="blog__in-page-header--right-item blog__in-page-header--right-item--active">
+                <div class="blog__in-page-header--right-item-text">Все</div>
+              </li>
+              <li class="blog__in-page-header--right-item">
+                <div class="blog__in-page-header--right-item-text">Категория 1</div>
+              </li>
+              <li class="blog__in-page-header--right-item">
+                <div class="blog__in-page-header--right-item-text">Категория 2</div>
+              </li>
+              <li class="blog__in-page-header--right-item">
+                <div class="blog__in-page-header--right-item-text">Категория 3</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__in-page-gallery">
+          <ul class="blog__in-page-gallery-items">
+            <ul class="blog__in-page-gallery-items--squares">
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-1-square.jpg" alt="Декоративное фото блога" width="610" height="552">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-2-square.jpg" alt="Декоративное фото блога" width="610" height="552">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-3-square.jpg" alt="Декоративное фото блога" width="610" height="552">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="blog__in-page-gallery-items--rectangles">
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-1-rectangle-one.jpg" alt="Декоративное фото блога" width="657" height="387">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-2-rectangle.jpg" alt="Декоративное фото блога" width="658" height="389">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-3-rectangle.jpg" alt="Декоративное фото блога" width="658" height="389">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+              <li class="blog__in-page-gallery-item"><img class="blog__in-page-gallery-item-image" src="./assets/images/blog--page/item-4-rectangle.jpg" alt="Декоративное фото блога" width="658" height="389">
+                <div class="blog__in-page-gallery-item-footer">
+                  <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
+                    <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
+                    <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
+                    <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                  </div>
+                  <div class="blog__items-item-visible-block-body">
+                    <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </ul>
         </div>
       </div>
-    </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="footer__left-side">
@@ -240,4 +358,4 @@
   </footer>
 </body>
 <!-- my js-->
-<script src="./assets/js/index--404.min.js"></script>
+<script src="./assets/js/index--blog.min.js"></script>

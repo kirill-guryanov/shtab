@@ -21,12 +21,12 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- my styles-->
-    <link rel="stylesheet" href="./assets/css/404.css">
-    <title>404</title>
+    <link rel="stylesheet" href="./assets/css/contacts.css">
+    <title>Контакты</title>
   </head>
 </html>
 <body>
-  <header class="header--main header--main-transparent">
+  <header class="header--main">
     <div class="header__container container">
       <div class="header__logo-block"><a href="index.html"><img class="header__logo-block-image header__logo-block-image--black" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a>
         <!--a( href="#" )-->
@@ -159,17 +159,45 @@
     </div>
   </div>
   <main>
-    <div class="intro404"><img class="intro404__decoration-line" src="assets/images/404/decoration-line.svg" alt="Фигурки" width="1159" height="1528"><img class="intro404__decoration-figures" src="assets/images/404/decoration-figures.svg" alt="Фигурки" width="125" height="120"><img class="intro404__decoration-circle" src="assets/images/404/decoration-circle.svg" alt="Круг" width="408" height="384"><img class="intro404__decoration-stars" src="assets/images/404/decoration-stars.svg" alt="Звезды" width="58" height="59">
-      <div class="intro404__container container">
-        <div class="intro404__content">
-          <h1 class="intro404__title">404</h1>
-          <h2 class="intro404__suptitle">Сожалеем, данной страницы нет</h2>
-          <p class="intro404__text">Страница, на которую вы попали, не существует или была перемещена</p>
-          <div class="intro404__button"><a class="about-us__right-side-read-more about-us__right-side-read-more--intro404" href="#">
-              <div class="about-us__right-side-read-more-circle services__read-more-circle services__read-more--black-border"></div>
-              <div class="about-us__right-side-read-more-content">
-                <p class="about-us__right-side-read-more about-us__right-side-read-more--black">Нужна консультация</p><img class="about-us__right-side-read-more-image" src="assets/images/blog/arrow-black.svg" alt="Черная стрелка" width="21" height="16">
-              </div></a></div>
+    <div class="contacts">
+      <div class="container contacts__container">
+        <div class="contacts__left">
+          <h1 class="contacts__left-title">Контакты</h1>
+          <ul class="contacts__left-contacts-list">
+            <li class="contacts__left-contacts-list-item">
+              <p class="contacts__left-contacts-list-item-title">Телефон для связи</p>
+              <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="./assets/images/contacts/phone.svg" alt="Телефонная трубка" width="24" height="24">
+                <div class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text contacts__left-contacts-list-item-contacts-text--phone" href="tel:+7 (905) 022-62-28">+7 (905) 022-62-28</a><a class="contacts__left-contacts-list-item-contacts-text--bottom" href="">Написать в whatsapp</a></div>
+              </div>
+            </li>
+            <li class="contacts__left-contacts-list-item">
+              <p class="contacts__left-contacts-list-item-title">Для гостей</p>
+              <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="./assets/images/contacts/marker.svg" alt="Маркер на карте" width="27" height="27">
+                <div class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text" href="tel:+7 (905) 022-62-28">г. Казань ул. Четаева д. 5А</a></div>
+              </div>
+            </li>
+            <li class="contacts__left-contacts-list-item">
+              <p class="contacts__left-contacts-list-item-title">Режим работы</p>
+              <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="./assets/images/contacts/clock.svg" alt="Часы" width="23" height="23">
+                <div class="contacts__left-contacts-list-item-contacts-texts">
+                  <div class="contacts__left-contacts-list-item-contacts-text--time">Пн — Пт: с 9.00 до 19.00</div>
+                  <div class="contacts__left-contacts-list-item-contacts-text--time">Сб — Вс: с 10.00 до17:00</div>
+                </div>
+              </div>
+            </li>
+            <li class="contacts__left-contacts-list-item">
+              <p class="contacts__left-contacts-list-item-title">Для писем</p>
+              <div class="contacts__left-contacts-list-item-contacts contacts__left-contacts-list-item-contacts--center"><img class="contacts__left-contacts-list-item-contacts-image" src="./assets/images/contacts/mail.svg" alt="Почта" width="21" height="22">
+                <div class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text" href="mailto:info@itshtab.ru">info@itshtab.ru</a></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__right">
+          <div class="contacts__right-form-block">
+            <div class="contacts__right-form-block-title">Мы будем рады получить от вас заявку на обратный звонок, давайте начнем что-то особенное вместе. Позвоните нам по любому вопросу</div>
+            <form class="contacts__right-form" autocomplete="on"></form>
+          </div>
         </div>
       </div>
     </div>
@@ -240,4 +268,4 @@
   </footer>
 </body>
 <!-- my js-->
-<script src="./assets/js/index--404.min.js"></script>
+<script src="./assets/js/index--contacts.min.js"></script>
