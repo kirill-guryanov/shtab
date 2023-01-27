@@ -164,7 +164,7 @@
             <div class="intro__top-right-button"><a class="about-us__right-side-read-more" href="#">
                 <div class="about-us__right-side-read-more-circle"></div>
                 <div class="about-us__right-side-read-more-content">
-                  <p class="about-us__right-side-read-more">Приступить</p><img class="about-us__right-side-read-more-image" src="assets/images/brief/arrow-read-more.svg" alt="Белая стрелка" width="21" height="16">
+                  <p class="about-us__right-side-read-more about-us__right-side-read-more--brief"><span class="about-us__right-side-read-more-span">Присту</span>пить</p><img class="about-us__right-side-read-more-image" src="assets/images/brief/arrow-read-more.svg" alt="Белая стрелка" width="21" height="16">
                 </div></a></div>
           </div>
         </div>
@@ -198,11 +198,11 @@
                     </fieldset>
                   </div>
                   <div class="forms__block-right">
-                    <fieldset class="forms__form-input-fieldset" form="info-about-company">
+                    <fieldset class="forms__form-input-fieldset forms__form-input-fieldset--wide" form="info-about-company">
                       <label class="forms__form-input-label" for="company-slogan">Слоган компании</label>
                       <input class="forms__form-input" type="text" name="company-name" placeholder="Если имеется" spellcheck="true" minlength="5" id="company-slogan">
                       <label class="forms__form-input-label" for="company-activity">Описание деятельности компании</label>
-                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea" name="company-name" placeholder="Включая информацию о продуктах и услугах компании" spellcheck="true" minlength="5" required id="company-activity"></textarea>
+                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea" name="company-activity" placeholder="Включая информацию о продуктах и услугах компании" spellcheck="true" minlength="5" required id="company-activity"></textarea>
                     </fieldset>
                   </div>
                 </div>
@@ -213,24 +213,195 @@
                 </div>
                 <div class="forms__block">
                   <div class="forms__block-left">
+                    <div class="forms__block-left-title">Какую цель должен выполнить сайт</div>
                     <div class="forms__block-left-radio-main-block">
                       <div class="forms__block-left-radio-block">
-                        <input class="input__radio" type="radio" name="tell-about-company" id="tell-about-company">
+                        <input class="input__radio" type="checkbox" checked name="tell-about-company" id="tell-about-company">
                         <div class="input__radio-custom">
                           <div class="input__radio-custom-checked"></div>
                         </div>
                       </div>
                       <label class="input__radio-label" for="tell-about-company">Рассказать о компании и ее деятельности</label>
                     </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="sell-product" id="sell-product">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="sell-product">Продажа товаров</label>
+                    </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="sell-services" id="sell-services">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="sell-services">Продажа услуг</label>
+                    </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="online-service" id="online-service">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="online-service">Онлайн сервис</label>
+                    </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="have-other" id="have-other">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="have-other">Сайт нужен, потому что есть у других</label>
+                    </div>
                   </div>
                   <div class="forms__block-right">
-                    <fieldset class="forms__form-input-fieldset" form="info-about-company">
-                      <label class="forms__form-input-label" for="company-slogan">Слоган компании</label>
-                      <input class="forms__form-input" type="text" name="company-name" placeholder="Если имеется" spellcheck="true" minlength="5" id="company-slogan">
-                      <label class="forms__form-input-label" for="company-activity">Описание деятельности компании</label>
-                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea" name="company-name" placeholder="Включая информацию о продуктах и услугах компании" spellcheck="true" minlength="5" required id="company-activity"></textarea>
+                    <fieldset class="forms__form-input-fieldset forms__form-input-fieldset--wide" form="info-about-company">
+                      <label class="forms__form-input-label" for="company-why-decide">Что привело Вас к решению создать новый сайт (изменить существующий)?</label>
+                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea" name="company-why-decide" placeholder="Расскажите в свободной форме" spellcheck="true" minlength="5" required id="company-why-decide"></textarea>
                     </fieldset>
                   </div>
+                </div>
+              </div>
+              <div class="forms__content">
+                <div class="forms__title-block">
+                  <h3 class="forms__title">Целевая аудитория и конкуренты</h3>
+                </div>
+                <div class="forms__block">
+                  <div class="forms__block-left">
+                    <fieldset class="forms__form-input-fieldset" form="info-about-company">
+                      <label class="forms__form-input-label" for="your target audience">Опишите вашу целевую аудиторию</label>
+                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea" name="your target audience" placeholder="Кто принимает решение о покупке продукта или услуги? Его социально-демографические характеристики (пол, возраст, доход, образование, стиль жизни)" spellcheck="true" minlength="5" required id="your target audience"></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="forms__block-right">
+                    <fieldset class="forms__form-input-fieldset forms__form-input-fieldset--wide" form="info-about-company">
+                      <label class="forms__form-input-label" for="your-competition">Расскажите о ваших конкурентах</label>
+                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea" name="your-competition" placeholder="Необходимо указать прямых конкурентов в Вашем ценном сегменте. По возможности охарактеризуйте их сильные и слабые стороны. Укажите адреса сайтов." spellcheck="true" minlength="5" required id="your-competition"></textarea>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div class="forms__content">
+                <div class="forms__title-block">
+                  <h3 class="forms__title">Наполнение сайта</h3>
+                </div>
+                <div class="forms__block">
+                  <div class="forms__block-left">
+                    <fieldset class="forms__form-input-fieldset" form="info-about-company">
+                      <label class="forms__form-input-label" for="what-materials-do-you-have">Какие материалы у вас уже есть</label>
+                      <textarea class="forms__form-input forms__form-input--big-mb forms__form-input--tail forms__form-textarea" name="what-materials-do-you-have" placeholder="Логотип, знак, фирменный цвет, фирменный шрифт, фотографии, материалы, используемые при разработке другой рекламной продукции и т. д.?" spellcheck="true" minlength="5" required id="what-materials-do-you-have"></textarea>
+                      <label class="forms__form-input-label" for="what-design-do-you-want">Пожелания к дизайну</label>
+                      <textarea class="forms__form-input forms__form-input--big-mb forms__form-input--tail forms__form-textarea" name="what-design-do-you-want" placeholder="Напишите свои пожелания к дизайну, которые вы хотите чтобы мы учли." spellcheck="true" minlength="5" required id="what-design-do-you-want"></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="forms__block-right">
+                    <fieldset class="forms__form-input-fieldset forms__form-input-fieldset--wide" form="info-about-company">
+                      <label class="forms__form-input-label" for="what-pages-do-you-want-to-see">Какие страницы вы бы хотели видеть на сайте</label>
+                      <textarea class="forms__form-input forms__form-input--big-mb forms__form-input--tail forms__form-textarea" name="what-pages-do-you-want-to-see" placeholder="Список страниц (Например: главная, о компании, услуги, детальная страница услуг, контакты, и так далее)" spellcheck="true" minlength="5" required id="what-pages-do-you-want-to-see"></textarea>
+                      <label class="forms__form-input-label" for="what-sites-do-you-like">Сайты, которые вам нравятся</label>
+                      <textarea class="forms__form-input forms__form-input--big-mb forms__form-input--tail forms__form-textarea" name="what-sites-do-you-like" placeholder="Укажите списком. Это поможет нам еще достичь еще лучшего результата в короткий срок" spellcheck="true" minlength="5" required id="what-sites-do-you-like"></textarea>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div class="forms__content">
+                <div class="forms__title-block">
+                  <div class="forms__title forms__title--flex">
+                    <h3> Финишная прямая</h3><img class="forms__title-image" src="assets/images/brief/flags.svg" alt="Флаги" width="53" height="47">
+                  </div>
+                </div>
+                <div class="forms__block forms__block--column">
+                  <div class="forms__block-left--mb">
+                    <div class="forms__block-left-title forms__block-left-title--biggest-font">Ваш бюджет на разработку</div>
+                    <div class="forms__block-left-text">Мы работаем с любым бюджетом, и нам очень хочется видеть вас в числе наших клиентов, выбранный вами бюджет поможет нам сделать наилучшее предложения по соотношению цена-качество, от выбранного бюджета зависит уровень проработки, и какие этапы будет включать в себя разработка</div>
+                  </div>
+                  <div class="forms__block-right forms__block-right--flex">
+                    <div class="forms__form-radio-block">
+                      <label class="forms__form-radio-label" for="100k">Менее 100 т.р</label>
+                      <input class="forms__form-checkbox" type="checkbox" checked name="less-than-100k" id="100k">
+                    </div>
+                    <div class="forms__form-radio-block">
+                      <label class="forms__form-radio-label" for="100k-300k">100 - 300 т.р</label>
+                      <input class="forms__form-checkbox" type="checkbox" name="100k-300k" id="100k-300k">
+                    </div>
+                    <div class="forms__form-radio-block">
+                      <label class="forms__form-radio-label" for="300k-500k">300 - 500 т.р</label>
+                      <input class="forms__form-checkbox" type="checkbox" name="300k-500k" id="300k-500k">
+                    </div>
+                    <div class="forms__form-radio-block">
+                      <label class="forms__form-radio-label" for="1kk-and-more">Более 1 млн.р</label>
+                      <input class="forms__form-checkbox" type="checkbox" name="1kk-and-more" id="1kk-and-more">
+                    </div>
+                    <div class="forms__form-radio-block">
+                      <label class="forms__form-radio-label" for="price-undefined">Бюджет не определен</label>
+                      <input class="forms__form-checkbox" type="checkbox" name="price-undefined" id="price-undefined">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="forms__content">
+                <div class="forms__block">
+                  <div class="forms__block-left forms__block-left--narrow">
+                    <div class="forms__block-left-title forms__block-left-title--biggest-font">Допустимый срок разработки</div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="less-than-month" id="less-than-month" checked>
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="less-than-month">Менее 1 месяца</label>
+                    </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="more-than-month" id="more-than-month">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="more-than-month">Более 1 месяца</label>
+                    </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="deadline-undefined" id="deadline-undefined">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="deadline-undefined">Срок не определен</label>
+                    </div>
+                    <div class="forms__block-left-radio-main-block">
+                      <div class="forms__block-left-radio-block">
+                        <input class="input__radio" type="checkbox" name="need-urgently" id="need-urgently">
+                        <div class="input__radio-custom">
+                          <div class="input__radio-custom-checked"></div>
+                        </div>
+                      </div>
+                      <label class="input__radio-label" for="need-urgently">Нужно срочно</label>
+                    </div>
+                  </div>
+                  <div class="forms__block-right">
+                    <fieldset class="forms__form-input-fieldset forms__form-input-fieldset--wide" form="info-about-company">
+                      <label class="forms__form-input-label" for="helpful-info">Любая полезная в работе над проектом информация</label>
+                      <textarea class="forms__form-input forms__form-input--tail forms__form-textarea forms__form-textarea--narrow" name="helpful-info" placeholder="Расскажите в свободной форме" spellcheck="true" minlength="5" required id="helpful-info"></textarea>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div class="forms__content forms__content-button--center">
+                <div class="forms__content-button">
+                  <button class="services__list-item-read-more-circle services__list-item-read-more-circle--min">
+                    <div class="services__list-item-read-more-content services__list-item-read-more-content--reverse">
+                      <p class="services__list-item-read-more-content-p--white">Завершить и отправить</p>
+                      <div class="services__list-item-read-more-content-arrows"><img class="services__list-item-read-more-content-arrow services__list-item-read-more-content-arrow--white" src="assets/images/brief/arrow-read-more.svg" alt="Белая стрелка" width="23" height="23"><img class="services__list-item-read-more-content-arrow services__list-item-read-more-content-arrow--black" src="assets/images/brief/arrow-black.svg" alt="Белая стрелка" width="23" height="23"></div>
+                    </div>
+                  </button>
                 </div>
               </div>
             </form>
