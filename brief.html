@@ -68,16 +68,16 @@
         <ul class="header__contacts-items header__contacts-item--icons">
           <div class="header__contacts-item"><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/telegram--transparent.svg" alt="Telegram веб студии" width="31" height="25"></a><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/telegram--transparent--white.svg" alt="Telegram веб студии" width="31" height="25"></a></div>
           <div class="header__contacts-item"><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--black" src="./assets/images/header/whatsapp--transparent.svg" alt="Whatsapp веб студии" width="28" height="29"></a><a class="header__contacts-item--icon" href="#"><img class="header__contacts-item-image header__contacts-item-image--white" src="./assets/images/header/whatsapp--transparent--white.svg" alt="Whatsapp веб студии" width="28" height="29"></a></div>
-          <div class="header__contacts-item header__contacts-item--numbers"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a>
-            <div class="header__contacts-item-back-call">Обратный звонок</div>
-          </div>
+          <address class="header__contacts-item header__contacts-item--numbers"><a class="header__contacts-item-number" href="tel: +79050226228">+7 (905) 022 - 62 - 28</a>
+            <p class="header__contacts-item-back-call">Обратный звонок</p>
+          </address>
         </ul>
       </div>
     </div>
   </header>
   <div class="wrapper wrapper--wide-screen-burger">
     <div class="header">
-      <div class="header-cont"><a class="header__logo--burger" href="#"><img src="./assets/images/wide-screen-burger/logo.svg?_v=1664227750022" alt="itshtab"></a>
+      <div class="header-cont"><a class="header__logo--burger" href="index.html"><img src="./assets/images/wide-screen-burger/logo.svg?_v=1664227750022" alt="itshtab"></a>
         <div class="header__menu menu"><img class="flex__bg" src="./assets/images/wide-screen-burger/air1.png?_v=1664227750022" alt=""><img class="flex__bg2" src="./assets/images/wide-screen-burger/air2.png?_v=1664227750022" alt="">
           <nav class="menu__body">
             <div class="header-cont flex">
@@ -120,9 +120,8 @@
                   <li><a href="#">Ссылка</a></li>
                 </ul>
               </div>
-              <div class="header__fidbek"><a class="header__call" href="tel:+79050226228">+7 (905) 022-62-28</a>
-                <div class="header__mail">info@itshtab.ru</div>
-                <div class="header__place">Республика Татарстан, г. Казань, ул. Четаева д.5А</div>
+              <div class="header__fidbek">
+                <address class="header__address"><a class="header__address-item header__call" href="tel:+79050226228">+7 (905) 022-62-28</a><a class="header__address-item header__mail" href="mailto: info@itshtab.ru">info@itshtab.ru</a><a class="header__address-item header__place" href="">Республика Татарстан, г. Казань, ул. Четаева д.5А</a></address>
                 <div class="bb">
                   <div class="header__social"><a href="#"><img src="./assets/images/wide-screen-burger/tg.svg?_v=1664227750022" alt="телеграм"></a><a href="#"><img src="./assets/images/wide-screen-burger/vr.svg?_v=1664227750022" alt="Вайбер"></a></div>
                   <button class="header__btn" type="button">Напишите нам</button>
@@ -411,7 +410,7 @@
             </ul>
           </li>
           <li class="footer__blocks-item">
-            <div class="footer__blocks-item-title">Услуги</div>
+            <h6 class="footer__blocks-item-title">Услуги</h6>
             <ul class="footer__blocks-item-list footer__blocks-item-list--two">
               <li class="footer__blocks-list-item footer__blocks-list-item--dash"><a href="#">Разработка сайтов</a></li>
               <li class="footer__blocks-list-item footer__blocks-list-item--dash"><a href="#">Привлечение трафика</a></li>
@@ -420,16 +419,20 @@
             </ul>
           </li>
           <li class="footer__blocks-item">
-            <div class="footer__blocks-item-title">Контакты</div>
+            <h6 class="footer__blocks-item-title">Контакты</h6>
             <ul class="footer__blocks-item-list footer__blocks-item-list--three">
               <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-marker.svg" alt="Картинка маркер на карте" width="27" height="27">
-                <div class="footer__blocks-list-item--contacts-text-block">
+                <address class="footer__blocks-list-item--contacts-text-block">
                   <p class="footer__blocks-list-item--contacts-text">г. Казань ул.</p>
                   <p class="footer__blocks-list-item--contacts-text">Четаева д. 5А</p>
-                </div>
+                </address>
               </li>
-              <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-phone.svg" alt="Картинка телефонной трубки" width="24" height="24"><a class="footer__blocks-list-item--contacts-text" href="tel:+79050226228">+7 (905) 022-62-28</a></li>
-              <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-mail.svg" alt="Картинка почты" width="21" height="22"><a class="footer__blocks-list-item--contacts-text" href="mailto:info@itshtab.ru">info@itshtab.ru</a></li>
+              <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-phone.svg" alt="Картинка телефонной трубки" width="24" height="24">
+                <address><a class="footer__blocks-list-item--contacts-text" href="tel:+79050226228">+7 (905) 022-62-28</a></address>
+              </li>
+              <li class="footer__blocks-list-item footer__blocks-list-item--contacts"><img class="footer__blocks-list-item--contacts-image" src="./assets/images/footer/footer-mail.svg" alt="Картинка почты" width="21" height="22">
+                <address><a class="footer__blocks-list-item--contacts-text" href="mailto:info@itshtab.ru">info@itshtab.ru</a></address>
+              </li>
             </ul>
           </li>
         </ul>
@@ -440,7 +443,7 @@
     </div>
     <div class="footer__right-side-form">
       <div class="footer__right-side-form-content">
-        <div class="footer__right-side-form-title">У вас есть задача для нас?</div>
+        <h6 class="footer__right-side-form-title">У вас есть задача для нас?</h6>
         <form class="footer__right-side-form-form">
           <input class="footer__right-side-form-form-input" type="name" placeholder="Имя">
           <input class="footer__right-side-form-form-input" type="tel" placeholder="Телефон">
@@ -456,7 +459,7 @@
               персональных данных
             </label>
           </div>
-          <button class="footer__right-side-form-form-button" type="">Отправить</button>
+          <button class="footer__right-side-form-form-button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
