@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- splide styles-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- aos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css">
     <!-- my styles-->
-    <link rel="stylesheet" href="./assets/css/components/blog-once-page/blog-once-page.css">
+    <link rel="stylesheet" href="./assets/css/components/projects/projects.css">
     <title>New Site</title>
   </head>
 </html>
@@ -16,14 +16,6 @@
     <div class="loader-static"></div>
     <div class="loader-first"></div>
     <div class="loader-second"></div>
-  </div>
-  <div class="progress-circle">
-    <div class="progress-circle__block">
-      <svg class="progress-ring" width="86" height="86">
-        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
-      </svg>
-      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
-    </div>
   </div>
   <div class="burgerMenu">
     <header class="header--main header--main-black-mode">
@@ -106,6 +98,14 @@
       </div>
     </section>
   </div>
+  <div class="progress-circle">
+    <div class="progress-circle__block">
+      <svg class="progress-ring" width="86" height="86">
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
+      </svg>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
+    </div>
+  </div>
   <div id="butter">
     <header class="header--main">
       <div class="container container--header">
@@ -165,160 +165,71 @@
       </div>
     </header>
     <main>
-      <section class="intro"><img class="intro__decoration-circle" src="assets/images/blog-once-page/decoration-circle.svg" alt="Круг декоративный" width="408" height="384">
-        <div class="container container--blog-once-page">
-          <div class="intro__header">
-            <div class="intro__header-top">
-              <div class="blog__items-item-visible-block-top">
-                <div class="blog__items-item-visible-block-top-title">Маркетинг</div>
-                <div class="blog__items-item-visible-block-top-circle"></div>
-                <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-              </div>
-            </div>
-            <div class="intro__header-middle">
-              <h1 class="intro__header-middle-title">Digital аутсорсинг показываем и рассказываем как это  работает</h1>
-              <div class="intro__header-middle-button"><a class="fillingButton fillingButton--blog-once-page" href="blog.html">
-                  <svg class="fillingButton__svg" viewBox="0 0 204 204">
-                    <circle class="fillingButton__svg-circle fillingButton__svg-circle--blog-once-page" cx="102" cy="102" r="102" fill="transparent"></circle>
-                  </svg>
-                  <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--blog-once-page"></div>
-                  <div class="fillingButton__content">
-                    <p class="fillingButton__p fillingButton__p--black"><span>Вернуться</span>назад</p>
-                  </div></a></div>
-            </div>
-            <div class="intro__header-bottom">
-              <div class="blog__in-page-header--left-breadcrumbs"><a class="blog__in-page-header--left-breadcrumbs-item" href="blog.html">
-                  <div class="blog__in-page-header--left-breadcrumbs-item-text">Блог</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="assets/images/blog/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a><a class="blog__in-page-header--left-breadcrumbs-item" href="#">
-                  <div class="blog__in-page-header--left-breadcrumbs-item-text">Маркетинг</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="assets/images/blog/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a><a class="blog__in-page-header--left-breadcrumbs-item blog__in-page-header--left-breadcrumbs-item--not-arrow" href="#">
-                  <div class="blog__in-page-header--left-breadcrumbs-item-text">Digital аутсорсинг показываем и рассказываем как это  работает</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="assets/images/blog/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a></div>
-            </div>
-          </div>
+      <section class="intro">
+        <h1 class="visibleHidden">Проекты</h1><img class="intro__decorativeCircle" src="assets/images/utils/semicircle-to-right--gray.svg" alt="Декоративный круг">
+        <div class="container">
           <div class="intro__content">
-            <div class="intro__content-image-block"><img class="intro__content-image" src="assets/images/blog-once-page/item-1.jpg" alt="Декоративная картинка" width="1375" height="647"></div>
-            <div class="intro__content-text-block">
-              <p class="intro__content-text">
-                Противоположная точка зрения подразумевает, что реплицированные с зарубежных источников,
-                современные исследования будут призваны к ответу. Наше дело не так однозначно, как может
-                показаться: семантический разбор внешних противодействий предполагает независимые способы реализации
-                своевременного выполнения сверхзадачи. Как принято считать, стремящиеся вытеснить традиционное производство,
-                нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть призваны к ответу.
-                В целом, конечно, высококачественный прототип будущего проекта создаёт предпосылки для системы массового участия.
-                Повседневная практика показывает, что убеждённость некоторых оппонентов выявляет срочную потребность поэтапного
-                и последовательного развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные
-                с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. В целом, конечно,
-                семантический разбор внешних противодействий однозначно определяет каждого участника как способного принимать собственные
-                решения касаемо своевременного выполнения сверхзадачи! Сложно сказать, почему базовые сценарии поведения пользователей
-                являются только методом политического участия и объявлены нарушающими общечеловеческие нормы этики и морали. Как принято
-                считать, действия представителей оппозиции представлены в исключительно положительном свете. Современные технологии
-                достигли такого уровня, что современная методология разработки представляет собой интересный эксперимент проверки как
-                самодостаточных, так и внешне зависимых концептуальных решений. Но повышение уровня гражданского сознания обеспечивает
-                широкому кругу (специалистов) участие в формировании распределения внутренних резервов и ресурсов. Следует отметить,
-                что разбавленное изрядной долей эмпатии, рациональное мышление, в своём классическом представлении, допускает внедрение
-                распределения внутренних резервов и ресурсов. С учётом сложившейся международной обстановки, экономическая повестка
-                сегодняшнего дня способствует повышению качества вывода текущих активов. Сложно сказать, почему реплицированные с зарубежных
-                источников, современные исследования освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
-                разумеется, обнародованы.
-              </p>
+            <div class="intro__contentLeftSide">
+              <h2 class="intro__contentLeftSideTitle">Проекты  </h2>
+              <div class="intro__contentLeftSideButtons">
+                <button class="intro__contentLeftSideButton intro__contentLeftSideButton--active">Все</button>
+                <button class="intro__contentLeftSideButton">
+                   Разработка</button>
+                <button class="intro__contentLeftSideButton">
+                   Продвижение</button>
+              </div>
             </div>
+            <div class="intro__contentLine"></div>
+            <div class="intro__contentRightSide"><img class="intro__contentRightSideImage" src="assets/images/projects/intro.svg" alt="Примеры работ" width="659" height="433"></div>
           </div>
-          <div class="intro__related-publications">
-            <div class="section__titles section__titles--white section__titles--reviews">
-              <div class="section__titles-left section__titles-left--reviews">
-                <div class="section__title">
-                  <h3 class="section__title-title intro__related-publications--blog-once-page">Что говорят наши клиенты</h3>
-                </div>
+        </div>
+      </section>
+      <section class="projects">
+        <h1 class="visibleHidden">Проекты</h1>
+        <div class="projects__verticalLines">
+          <div class="projects__verticalLine"></div>
+          <div class="projects__verticalLine"></div>
+          <div class="projects__verticalLine"></div>
+        </div>
+        <div class="projects__obliqueLines"></div>
+        <div class="glowingCircleTop"></div>
+        <div class="glowingCircleBottom"></div>
+        <div class="container">
+          <div class="projects__itemsWrapper">
+            <article class="projects__item">
+              <div class="projects__itemImageWrapper"><img class="projects__itemImage" src="assets/images/projects/rag.jpg" alt="Превью сайта" width="650" height="520"><img class="projects__itemImageDecoration" src="assets/images/projects/imagesDecoration.svg" alt="Декоративный элемент" width="310" height="148"></div>
+              <div class="projects__itemTitleWrapper">
+                <h2 class="projects__itemTitle"></h2>
+                <div class="projects__itemTitleLine"></div>
               </div>
-            </div>
-            <div class="intro__related-publications-slider splide" aria-label="Splide Basic HTML Example">
-              <div class="splide__track">
-                <ul class="intro__related-publications-list splide__list">
-                  <li class="blog__items-item--blog-once-page splide__slide"><img class="blog__items-item-image--blog-once-page" src="assets/images/index/blog/item-1.jpg" alt="Фото ноутбука" width="280" height="258">
-                    <div class="blog__items-item-block--blog-once-page">
-                      <div class="blog__items-item-visible-block blog__items-item-visible-block--blog-once-page">
-                        <div class="blog__items-item-visible-block-top">
-                          <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                          <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                          <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-                        </div>
-                        <div class="blog__items-item-visible-block-body">
-                          <div class="blog__items-item-visible-block-body-text--blog-page blog__items-item-visible-block-body-text--blog-once-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="blog__items-item--blog-once-page splide__slide"><img class="blog__items-item-image--blog-once-page" src="assets/images/index/blog/item-2.jpg" alt="Фото ноутбука" width="280" height="258">
-                    <div class="blog__items-item-block--blog-once-page">
-                      <div class="blog__items-item-visible-block blog__items-item-visible-block--blog-once-page">
-                        <div class="blog__items-item-visible-block-top">
-                          <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                          <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                          <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-                        </div>
-                        <div class="blog__items-item-visible-block-body">
-                          <div class="blog__items-item-visible-block-body-text--blog-page blog__items-item-visible-block-body-text--blog-once-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="blog__items-item--blog-once-page splide__slide"><img class="blog__items-item-image--blog-once-page" src="assets/images/index/blog/item-3.jpg" alt="Фото ноутбука" width="280" height="258">
-                    <div class="blog__items-item-block--blog-once-page">
-                      <div class="blog__items-item-visible-block blog__items-item-visible-block--blog-once-page">
-                        <div class="blog__items-item-visible-block-top">
-                          <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                          <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                          <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-                        </div>
-                        <div class="blog__items-item-visible-block-body">
-                          <div class="blog__items-item-visible-block-body-text--blog-page blog__items-item-visible-block-body-text--blog-once-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="blog__items-item--blog-once-page splide__slide"><img class="blog__items-item-image--blog-once-page" src="assets/images/index/blog/item-1.jpg" alt="Фото ноутбука" width="280" height="258">
-                    <div class="blog__items-item-block--blog-once-page">
-                      <div class="blog__items-item-visible-block blog__items-item-visible-block--blog-once-page">
-                        <div class="blog__items-item-visible-block-top">
-                          <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                          <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                          <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-                        </div>
-                        <div class="blog__items-item-visible-block-body">
-                          <div class="blog__items-item-visible-block-body-text--blog-page blog__items-item-visible-block-body-text--blog-once-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="blog__items-item--blog-once-page splide__slide"><img class="blog__items-item-image--blog-once-page" src="assets/images/index/blog/item-2.jpg" alt="Фото ноутбука" width="280" height="258">
-                    <div class="blog__items-item-block--blog-once-page">
-                      <div class="blog__items-item-visible-block blog__items-item-visible-block--blog-once-page">
-                        <div class="blog__items-item-visible-block-top">
-                          <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                          <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                          <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-                        </div>
-                        <div class="blog__items-item-visible-block-body">
-                          <div class="blog__items-item-visible-block-body-text--blog-page blog__items-item-visible-block-body-text--blog-once-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="blog__items-item--blog-once-page splide__slide"><img class="blog__items-item-image--blog-once-page" src="assets/images/index/blog/item-3.jpg" alt="Фото ноутбука" width="280" height="258">
-                    <div class="blog__items-item-block--blog-once-page">
-                      <div class="blog__items-item-visible-block blog__items-item-visible-block--blog-once-page">
-                        <div class="blog__items-item-visible-block-top">
-                          <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                          <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                          <div class="blog__items-item-visible-block-top-date">4 января 2023</div>
-                        </div>
-                        <div class="blog__items-item-visible-block-body">
-                          <div class="blog__items-item-visible-block-body-text--blog-page blog__items-item-visible-block-body-text--blog-once-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+              <p class="projects__itemSuptitle"></p>
+            </article>
+          </div>
+          <div class="projects__slideButtons">
+            <button class="projects__slideButton">1</button>
+            <button class="projects__slideButton">1</button>
+            <button class="projects__slideButton">1</button>
+            <button class="projects__slideButton">1</button>
+            <button class="projects__slideButton">1</button>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <h1 class="visibleHidden">Давайте поработаем!</h1><img class="offer__decorativeCircle" src="assets/images/utils/circleWithLines.svg" alt="Декоративный круг" width="421" height="421">
+        <div class="container"> 
+          <h2 class="offer__title"></h2>
+          <div class="offer__bottom">
+            <p class="offer__bottomText">
+               Мы уверены, что мы сможем сделать многое для вас, 
+              чтобы дать вам хороший результат
+            </p><a class="fillingButton fillingButton--offer" href="blog.html">
+              <svg class="fillingButton__svg" viewBox="0 0 204 204">
+                <circle class="fillingButton__svg-circle fillingButton__svg-circle--offer" cx="102" cy="102" r="102" fill="transparent"></circle>
+              </svg>
+              <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--offer"></div>
+              <div class="fillingButton__content">
+                <p class="fillingButton__p fillingButton__p--black"><span>Вернуться</span>назад</p>
+              </div></a>
           </div>
         </div>
       </section>
@@ -393,8 +304,7 @@
     </footer>
   </div>
 </body>
-<!-- splide-->
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+<!-- aos-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <!-- my js-->
-<script src="./assets/js/index--blog-once-page.min.js"></script>
+<script src="./assets/js/projectsIndex.min.js"></script>
