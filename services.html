@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- my styles-->
-    <link rel="stylesheet" href="./assets/css/components/blog--page/blog--page.css">
+    <link rel="stylesheet" href="./assets/css/components/services/servicesPage.css">
     <title>New Site</title>
   </head>
 </html>
@@ -14,14 +14,6 @@
     <div class="loader-static"></div>
     <div class="loader-first"></div>
     <div class="loader-second"></div>
-  </div>
-  <div class="progress-circle">
-    <div class="progress-circle__block">
-      <svg class="progress-ring" width="86" height="86">
-        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
-      </svg>
-      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
-    </div>
   </div>
   <div class="burgerMenu">
     <header class="header--main header--main-black-mode">
@@ -104,6 +96,14 @@
       </div>
     </section>
   </div>
+  <div class="progress-circle">
+    <div class="progress-circle__block">
+      <svg class="progress-ring" width="86" height="86">
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
+      </svg>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
+    </div>
+  </div>
   <header class="header--main">
     <div class="container container--header">
       <div class="header__logo-block"><a href="index.html"><img class="header__logo-block-image header__logo-block-image--black" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a><a href="index.html"><img class="header__logo-block-image header__logo-block-image--white" src="./assets/images/header/header-logo--white.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
@@ -163,116 +163,236 @@
   </header>
   <div id="butter">
     <main>
-      <section class="intro"><img class="blog__in-page-decoration-circle" src="assets/images/blog/decoration-circle.svg" alt="Декоративный круг" width="408" height="384"><img class="blog__in-page-decoration-circle-with-line" src="assets/images/blog/decoration-circle-with-lines.svg" alt="Декоративный круг" width="548" height="548">
-        <div class="container container--blog__in-page">
-          <div class="blog__in-page-header">
-            <div class="blog__in-page-header--left">
-              <div class="blog__in-page-header--left-title">Блог</div>
-              <div class="blog__in-page-header--left-breadcrumbs"><a class="blog__in-page-header--left-breadcrumbs-item" href="blog.html">
-                  <div class="blog__in-page-header--left-breadcrumbs-item-text">Блог</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="assets/images/blog/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a><a class="blog__in-page-header--left-breadcrumbs-item blog__in-page-header--left-breadcrumbs-item--not-arrow" href="#">
-                  <div class="blog__in-page-header--left-breadcrumbs-item-text">Все записи</div><img class="blog__in-page-header--left-breadcrumbs-item-arrow" src="assets/images/blog/breadcrumbs-item-arrow.svg" alt="Стрелка" width="6" height="6"></a></div>
+      <section class="intro">
+        <h1 class="visibleHidden">Популярные услуги</h1><img class="intro__decorativeCircle" src="assets/images/utils/semicircle-to-right--gray.svg" alt="Декоративный круг"><img class="intro__decorativeCircleBg" src="assets/images/services/bgCircle.png" alt="Декоративный круг">
+        <div class="container">
+          <div class="intro__contentTop">
+            <div class="intro__contentLeftSide">
+              <h2 class="intro__contentLeftSideSuptitle">Популярные услуги</h2>
+              <h2 class="intro__contentLeftSideTitle">Для выхода бизнеса<br>на новый уровень</h2>
             </div>
-            <div class="blog__in-page-header--right">
-              <ul class="blog__in-page-header--right-items">
-                <li class="blog__in-page-header--right-item blog__in-page-header--right-item--active">
-                  <div class="blog__in-page-header--right-item-text">Все</div>
-                </li>
-                <li class="blog__in-page-header--right-item">
-                  <div class="blog__in-page-header--right-item-text">Категория 1</div>
-                </li>
-                <li class="blog__in-page-header--right-item">
-                  <div class="blog__in-page-header--right-item-text">Категория 2</div>
-                </li>
-                <li class="blog__in-page-header--right-item">
-                  <div class="blog__in-page-header--right-item-text">Категория 3</div>
-                </li>
-              </ul>
+            <div class="intro__contentLine"></div>
+            <div class="intro__contentRightSide">
+              <div class="intro__contentRightSideButton"><span>Рассчитать проект</span><img class="intro__contentRightSideButtonImage" src="assets/images/utils/arrowForButton--small.svg" alt="Декоративный круг" width="32" height="10"></div>
             </div>
           </div>
-          <div class="blog__in-page-gallery">
-            <ul class="blog__in-page-gallery-items">
-              <ul class="blog__in-page-gallery-items--squares">
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-1-square.jpg" alt="Декоративное фото блога" width="610" height="552">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+          <div class="intro__contentBottom">
+            <article class="intro__contentBottomItem"><a class="intro__contentBottomItemContent" href=""><img class="intro__contentBottomItemContentImage" src="assets/images/services/development.svg" alt="Декоративное изображение" width="87" height="62">
+                <h1 class="intro__contentBottomItemContentTitle">Разработка веб-сайтов под ключ</h1>
+                <p class="intro__contentBottomItemContentText">
+                  Запускаем интернет - проекты от простых с 
+                  собственной изюминкой, до технически сложных 
+                  и крупных.
+                </p>
+                <div class="intro__contentBottomItemContentFooter">
+                  <div class="intro__contentBottomItemContentFooterPrice">
+                     От 50 000 рублей</div><img class="intro__contentBottomItemContentFooterImage" src="assets/images/utils/burgerMenuArrowBlack.svg" alt="Стрелка" width="78" height="24">
+                </div></a>
+              <div class="intro__contentBottomItemBottomLine"></div>
+            </article>
+            <article class="intro__contentBottomItem"><a class="intro__contentBottomItemContent" href=""><img class="intro__contentBottomItemContentImage" src="assets/images/services/setting.svg" alt="Декоративное изображение" width="87" height="62">
+                <h1 class="intro__contentBottomItemContentTitle">Разработка веб-сайтов под ключ</h1>
+                <p class="intro__contentBottomItemContentText">
+                  Запускаем интернет - проекты от простых с 
+                  собственной изюминкой, до технически сложных 
+                  и крупных.
+                </p>
+                <div class="intro__contentBottomItemContentFooter">
+                  <div class="intro__contentBottomItemContentFooterPrice">
+                     От 50 000 рублей</div><img class="intro__contentBottomItemContentFooterImage" src="assets/images/utils/burgerMenuArrowBlack.svg" alt="Стрелка" width="78" height="24">
+                </div></a>
+              <div class="intro__contentBottomItemBottomLine"></div>
+            </article>
+            <article class="intro__contentBottomItem"><a class="intro__contentBottomItemContent" href=""><img class="intro__contentBottomItemContentImage" src="assets/images/services/modification.svg" alt="Декоративное изображение" width="87" height="62">
+                <h1 class="intro__contentBottomItemContentTitle">Разработка веб-сайтов под ключ</h1>
+                <p class="intro__contentBottomItemContentText">
+                  Запускаем интернет - проекты от простых с 
+                  собственной изюминкой, до технически сложных 
+                  и крупных.
+                </p>
+                <div class="intro__contentBottomItemContentFooter">
+                  <div class="intro__contentBottomItemContentFooterPrice">
+                     От 50 000 рублей</div><img class="intro__contentBottomItemContentFooterImage" src="assets/images/utils/burgerMenuArrowBlack.svg" alt="Стрелка" width="78" height="24">
+                </div></a>
+              <div class="intro__contentBottomItemBottomLine"></div>
+            </article>
+            <article class="intro__contentBottomItem"><a class="intro__contentBottomItemContent" href=""><img class="intro__contentBottomItemContentImage" src="assets/images/services/seo.svg" alt="Декоративное изображение" width="87" height="62">
+                <h1 class="intro__contentBottomItemContentTitle">Разработка веб-сайтов под ключ</h1>
+                <p class="intro__contentBottomItemContentText">
+                  Запускаем интернет - проекты от простых с 
+                  собственной изюминкой, до технически сложных 
+                  и крупных.
+                </p>
+                <div class="intro__contentBottomItemContentFooter">
+                  <div class="intro__contentBottomItemContentFooterPrice">
+                     От 50 000 рублей</div><img class="intro__contentBottomItemContentFooterImage" src="assets/images/utils/burgerMenuArrowBlack.svg" alt="Стрелка" width="78" height="24">
+                </div></a>
+              <div class="intro__contentBottomItemBottomLine"></div>
+            </article>
+            <article class="intro__contentBottomItem"><a class="intro__contentBottomItemContent" href=""><img class="intro__contentBottomItemContentImage" src="assets/images/services/support.svg" alt="Декоративное изображение" width="87" height="62">
+                <h1 class="intro__contentBottomItemContentTitle">Разработка веб-сайтов под ключ</h1>
+                <p class="intro__contentBottomItemContentText">
+                  Запускаем интернет - проекты от простых с 
+                  собственной изюминкой, до технически сложных 
+                  и крупных.
+                </p>
+                <div class="intro__contentBottomItemContentFooter">
+                  <div class="intro__contentBottomItemContentFooterPrice">
+                     От 50 000 рублей</div><img class="intro__contentBottomItemContentFooterImage" src="assets/images/utils/burgerMenuArrowBlack.svg" alt="Стрелка" width="78" height="24">
+                </div></a>
+              <div class="intro__contentBottomItemBottomLine"></div>
+            </article>
+            <article class="intro__contentBottomItem"><a class="intro__contentBottomItemContent" href=""><img class="intro__contentBottomItemContentImage" src="assets/images/services/serm.svg" alt="Декоративное изображение" width="87" height="62">
+                <h1 class="intro__contentBottomItemContentTitle">Разработка веб-сайтов под ключ</h1>
+                <p class="intro__contentBottomItemContentText">
+                  Запускаем интернет - проекты от простых с 
+                  собственной изюминкой, до технически сложных 
+                  и крупных.
+                </p>
+                <div class="intro__contentBottomItemContentFooter">
+                  <div class="intro__contentBottomItemContentFooterPrice">
+                     От 50 000 рублей</div><img class="intro__contentBottomItemContentFooterImage" src="assets/images/utils/burgerMenuArrowBlack.svg" alt="Стрелка" width="78" height="24">
+                </div></a>
+              <div class="intro__contentBottomItemBottomLine"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <h1 class="visibleHidden">Информация о нас</h1><img class="info__decorativeObliqueLinesWithTransparen" src="assets/images/utils/obliqueLinesWithSalad--transparent.svg" alt="Декоративные линии">
+        <div class="info__decorativeVerticalLines">
+          <div class="info__decorativeVerticalLine"></div>
+          <div class="info__decorativeVerticalLine"></div>
+        </div>
+        <div class="container">
+          <div class="info__content">
+            <div class="info__contentLeftSide"><img class="info__contentLeftSideImage" src="assets/images/services/computer.svg" alt="Декоративный круг" width="494" height="451"></div>
+            <div class="info__contentRightSide">
+              <h2 class="info__contentRightSideTitle">Ваша Digital команда бла бла бла бла</h2>
+              <p class="info__contentRightSideText">
+                Мы команда стратегического цифрового маркетинга работаем по всему миру с крупнейшими брендами, мы верим что прогресс происходит только тогда, когда вы отказываетесь играть безопасно. Мы объединяем идеи и действия,
+                и идеи с дизайном, технологическими данными для создавать впечатления от бренда, которые нравятся клиентам наши сервисы.
+              </p><a class="fillingButton fillingButton--infoInfo" href="blog.html">
+                <svg class="fillingButton__svg" viewBox="0 0 204 204">
+                  <circle class="fillingButton__svg-circle fillingButton__svg-circle--infoInfo" cx="102" cy="102" r="102" fill="transparent"></circle>
+                </svg>
+                <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--infoInfo"></div>
+                <div class="fillingButton__content">
+                  <p class="fillingButton__span--smallMargin"><span>Бесплатная </span>консультация</p>
+                </div></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="statistics">
+        <h1 class="visibleHidden">Статистика</h1>
+        <div class="container">
+          <div class="statistics__items">
+            <div class="statistics__item">
+              <p class="statistics__itemNumber">500</p>
+              <h2 class="statistics__itemTitle">
+                 Проектов <br>выполнено</h2>
+            </div>
+            <div class="statistics__item">
+              <p class="statistics__itemNumber">400</p>
+              <h2 class="statistics__itemTitle">
+                 Довольных <br>клиентов</h2>
+            </div>
+            <div class="statistics__item">
+              <p class="statistics__itemNumber">50+</p>
+              <h2 class="statistics__itemTitle">
+                 Разработано<br>РК</h2>
+            </div>
+            <div class="statistics__item">
+              <p class="statistics__itemNumber">10</p>
+              <h2 class="statistics__itemTitle">
+                 Проектов<br>выполнено</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <h1 class="visibleHidden">Статистика</h1><img class="offer__decorativeCircle" src="assets/images/utils/circleWithLines.svg" alt="Декоративный круг" width="421" height="421">
+        <div class="container">
+          <div class="titleBlockWithBg">
+            <h2 class="titleWithBg">Давайте поработаем!</h2>
+          </div>
+          <div class="offer__content">
+            <h2 class="offer__contentTitle">Мы уверены, что мы сможем сделать многое для вас, чтобы дать вам хороший результат</h2>
+            <form class="offer__form" action="" method="">
+              <div class="offer__formBody">
+                <div class="offer__formInputs">
+                  <input class="offer__formInput" type="text" placeholder="Ваше имя" name="name">
+                  <input class="offer__formInput" type="tel" placeholder="Ваш телефон" name="tel">
+                </div>
+                <div class="offer__formCheckboxes">
+                  <header class="offer__formCheckboxesHeader">
+                    <h3 class="offer__formCheckboxesTitle">Удобное для вас время звонка (По Московскому времени)</h3>
+                  </header>
+                  <div class="offer__formCheckboxesCols">
+                    <div class="offer__formCheckboxesCol">
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="ten" name="ten">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="ten">
+                          <time>10:00 - 13:00</time>
+                        </label>
                       </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="sixteen" name="sixteen">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="sixteen">
+                          <time>16:00 - 19:00</time>
+                        </label>
                       </div>
-                    </div></a></li>
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-2-square.jpg" alt="Декоративное фото блога" width="610" height="552">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
+                    </div>
+                    <div class="offer__formCheckboxesCol">
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="thirteen" name="thirteen">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="thirteen">
+                          <time>13:00 - 16:00</time>
+                        </label>
                       </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="notMatter" name="notMatter">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="notMatter">
+                          <p>Не имеет значения</p>
+                        </label>
                       </div>
-                    </div></a></li>
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-3-square.jpg" alt="Декоративное фото блога" width="610" height="552">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
-                      </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                      </div>
-                    </div></a></li>
-              </ul>
-              <ul class="blog__in-page-gallery-items--rectangles">
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-1-rectangle-one.jpg" alt="Декоративное фото блога" width="657" height="387">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
-                      </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                      </div>
-                    </div></a></li>
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-2-rectangle.jpg" alt="Декоративное фото блога" width="658" height="389">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
-                      </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                      </div>
-                    </div></a></li>
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-3-rectangle.jpg" alt="Декоративное фото блога" width="658" height="389">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
-                      </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                      </div>
-                    </div></a></li>
-                <li class="blog__in-page-gallery-item"><a href="blog-once-page.html"><img class="blog__in-page-gallery-item-image" src="assets/images/blog/item-4-rectangle.jpg" alt="Декоративное фото блога" width="658" height="389">
-                    <div class="blog__in-page-gallery-item-footer">
-                      <div class="blog__items-item-visible-block-top blog__items-item-visible-block-top--blog-page">
-                        <div class="blog__items-item-visible-block-top-title blog__items-item-visible-block-top-title--blog-page">SMM</div>
-                        <div class="blog__items-item-visible-block-top-circle blog__items-item-visible-block-top-circle--blog-page"></div>
-                        <div class="blog__items-item-visible-block-top-date blog__items-item-visible-block-top-date--blog-page">4 января 2023</div>
-                      </div>
-                      <div class="blog__items-item-visible-block-body">
-                        <div class="blog__items-item-visible-block-body-text blog__items-item-visible-block-body-text--blog-page">Важность ведения страниц вашего бизнеса в социальных сетях</div>
-                      </div>
-                    </div></a></li>
-              </ul>
-            </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="offer__formButtonBlock"><a class="fillingButton fillingButton--infoOffer" href="blog.html">
+                    <svg class="fillingButton__svg" viewBox="0 0 204 204">
+                      <circle class="fillingButton__svg-circle fillingButton__svg-circle--infoOffer" cx="102" cy="102" r="102" fill="transparent"></circle>
+                    </svg>
+                    <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--infoOffer"></div>
+                    <div class="fillingButton__content">
+                      <p class="fillingButton__span--smallMargin"><span>Бесплатная </span>консультация</p>
+                    </div></a></div>
+              </div>
+              <footer class="offer__formFooter">
+                <p class="offer__formFooterText">Нажимая кнопку, вы разрешаете обработку персональных данных и соглашаетесь с политикой конфиденциальности.</p>
+              </footer>
+            </form>
           </div>
         </div>
       </section>
@@ -348,4 +468,4 @@
   </div>
 </body>
 <!-- my js-->
-<script src="./assets/js/index--blog.min.js"></script>
+<script src="./assets/js/indexServices.min.js"></script>
