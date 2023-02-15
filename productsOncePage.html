@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--yandex maps-->
-    <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=f46ac74b-aa85-4eea-ab8e-f810de2c9370&amp;load=package.full&amp;lang=ru-RU"></script>
     <!-- my styles-->
-    <link rel="stylesheet" href="./assets/css/components/contacts/contacts.css">
-    <title>Контакты</title>
+    <link rel="stylesheet" href="./assets/css/components/productsOncePage/productsOncePage.css">
+    <title>New Site</title>
   </head>
 </html>
 <body class="hidden">
@@ -16,14 +14,6 @@
     <div class="loader-static"></div>
     <div class="loader-first"></div>
     <div class="loader-second"></div>
-  </div>
-  <div class="progress-circle">
-    <div class="progress-circle__block">
-      <svg class="progress-ring" width="86" height="86">
-        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
-      </svg>
-      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
-    </div>
   </div>
   <div class="burgerMenu">
     <header class="header--main header--main-black-mode">
@@ -106,6 +96,14 @@
       </div>
     </section>
   </div>
+  <div class="progress-circle">
+    <div class="progress-circle__block">
+      <svg class="progress-ring" width="86" height="86">
+        <circle class="progress-ring__circle" stroke="#C6FF00" stroke-width="4" cx="43" cy="43" r="25"></circle>
+      </svg>
+      <div class="progress-circle-arrows"><img class="progress-circle-arrow progress-circle-arrow--salad" src="assets/images/circle/circle-arrow.svg" alt="Зеленая стрелка" width="20" height="36"><img class="progress-circle-arrow progress-circle-arrow--black" src="assets/images/circle/circle-arrow--black.svg" alt="Черная стрелка" width="20" height="36"></div>
+    </div>
+  </div>
   <header class="header--main">
     <div class="container container--header">
       <div class="header__logo-block"><a href="index.html"><img class="header__logo-block-image header__logo-block-image--black" src="./assets/images/header/header-logo.svg" alt="Логотип веб студии" width="219" height="58"></a><a href="index.html"><img class="header__logo-block-image header__logo-block-image--white" src="./assets/images/header/header-logo--white.svg" alt="Логотип веб студии" width="219" height="58"></a></div>
@@ -165,53 +163,258 @@
   </header>
   <div id="butter">
     <main>
-      <div class="intro"><img class="contacts__decoration-circle" src="assets/images/contacts/decoration-circle.svg" alt="Телефонная трубка" width="465" height="465">
-        <div class="container container--contacts">
-          <div class="contacts__left">
-            <h1 class="contacts__left-title">Контакты</h1>
-            <ul class="contacts__left-contacts-list">
-              <li class="contacts__left-contacts-list-item">
-                <h2 class="contacts__left-contacts-list-item-title">Телефон для связи</h2>
-                <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/phone.svg" alt="Телефонная трубка" width="24" height="24">
-                  <address class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text contacts__left-contacts-list-item-contacts-text--phone" href="tel:+7 (905) 022-62-28">+7 (905) 022-62-28</a><a class="contacts__left-contacts-list-item-contacts-text--bottom" href="">Написать в whatsapp</a></address>
+      <section class="intro">
+        <h1 class="visibleHidden">“КАТ ЛОГИСТИК”</h1><img class="intro__bg" src="assets/images/productsOncePage/introBg.jpg" alt="Машина" width="1920" height="580">
+        <div class="container">
+          <div class="intro__content">
+            <div class="section__titles">
+              <div class="section__titles-left">
+                <div class="section__overtitle">
+                  <div class="section__overtitle-line"></div>
+                  <h3 class="section__overtitle-text">“КАТ ЛОГИСТИК”</h3>
                 </div>
-              </li>
-              <li class="contacts__left-contacts-list-item">
-                <h2 class="contacts__left-contacts-list-item-title">Для гостей</h2>
-                <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/marker.svg" alt="Маркер на карте" width="27" height="27">
-                  <address class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text" href="#">г. Казань ул. Четаева д. 5А</a></address>
+                <div class="section__title">
+                  <h3 class="section__title-title">Корпоративный сайт<br>Логистической компании</h3>
                 </div>
-              </li>
-              <li class="contacts__left-contacts-list-item">
-                <h2 class="contacts__left-contacts-list-item-title">Режим работы</h2>
-                <div class="contacts__left-contacts-list-item-contacts"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/clock.svg" alt="Часы" width="23" height="23">
-                  <address class="contacts__left-contacts-list-item-contacts-texts">
-                    <div class="contacts__left-contacts-list-item-contacts-text--time">Пн — Пт: с 9.00 до 19.00</div>
-                    <div class="contacts__left-contacts-list-item-contacts-text--time">Сб — Вс: с 10.00 до17:00</div>
-                  </address>
-                </div>
-              </li>
-              <li class="contacts__left-contacts-list-item">
-                <h2 class="contacts__left-contacts-list-item-title">Для писем</h2>
-                <div class="contacts__left-contacts-list-item-contacts contacts__left-contacts-list-item-contacts--center"><img class="contacts__left-contacts-list-item-contacts-image" src="assets/images/contacts/mail.svg" alt="Почта" width="21" height="22">
-                  <address class="contacts__left-contacts-list-item-contacts-texts"><a class="contacts__left-contacts-list-item-contacts-text" href="mailto:info@itshtab.ru">info@itshtab.ru</a></address>
-                </div>
-              </li>
-            </ul>
-            <div class="contacts__left-button"><a class="fillingButton fillingButton--contacts" href="brief.html">
-                <svg class="fillingButton__svg" viewBox="0 0 204 204">
-                  <circle class="fillingButton__svg-circle fillingButton__svg-circle--contacts" cx="102" cy="102" r="102" fill="transparent"></circle>
-                </svg>
-                <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--contacts"></div>
-                <div class="fillingButton__content">
-                  <p class="fillingButton__p fillingButton__p--black"><span>Заполнить</span>бриф</p>
-                </div></a></div>
-          </div>
-          <div class="contacts__right">
-            <div id="map"></div>
+                <p class="section__text">
+                  Транспортная компания «КАТ Логистик» не первый год работает в сфере автомобильных 
+                  грузоперевозок. И оказываем своим клиентам не только услуги в сфере транспортировки   
+                  груза
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="info">
+        <h1 class="visibleHidden"></h1><img class="info__decorativeCircleWithLines--transparent" src="assets/images/utils/circleWithLines--transparent.svg" alt="Декоративный круг" width="548" height="548">
+        <div class="container">
+          <div class="info__content">
+            <div class="info__contentTop">
+              <div class="info__contentTopLeft">
+                <h2 class="info__contentTopLeftTitle infoTitle">Выполненные работы</h2>
+                <ul class="info__contentTopLeftList">
+                  <li class="info__contentTopLeftListItem infoText"> 
+                    <div class="bullet bullet"></div>
+                    <p>Копирайтинг</p>
+                  </li>
+                  <li class="info__contentTopLeftListItem infoText">
+                    <div class="bullet bullet"></div>
+                    <p>Фирменный стиль</p>
+                  </li>
+                  <li class="info__contentTopLeftListItem infoText">
+                    <div class="bullet bullet"></div>
+                    <p>Дизайн сайта</p>
+                  </li>
+                  <li class="info__contentTopLeftListItem infoText">
+                    <div class="bullet bullet"></div>
+                    <p>Разработка сайта</p>
+                  </li>
+                  <li class="info__contentTopLeftListItem infoText">
+                    <div class="bullet bullet"></div>
+                    <p>Настройка CMS</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="info__contentTopRight">
+                <div class="info__contentTopRightItem">
+                  <h3 class="info__contentTopRightItemTitle infoTitle">Задача</h3>
+                  <p class="info__contentTopRightItemText infoText infoText--350">
+                    Разработать современный и легкий корпоративный сайт с 
+                    уникальным дизайном и актуальной информацией об услугах компании
+                    на базе платформы 1C битрикс управление сайтом
+                  </p>
+                </div>
+                <div class="info__contentTopRightItem">
+                  <h3 class="info__contentTopRightItemTitle infoTitle">Решение</h3>
+                  <p class="info__contentTopRightItemText infoText infoText--350">
+                    Разработали интернет-магазин с возможностью оформления и оплаты заказов 
+                    онлайн. Для простоты администрирования сайта выбрали платформу WordPress.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="info__contentBottom">
+              <div class="info__contentBottomLeftWrapper">
+                <div class="info__contentBottomLeft">
+                  <ul class="info__contentBottomLeftLists">
+                    <li class="info__contentBottomLeftListsItem">
+                      <h3 class="info__contentBottomLeftListsItemTitle infoTitle infoTitle--big">Процесс создания</h3>
+                      <ol class="info__contentBottomLeftListsItemList">
+                        <li class="info__contentBottomLeftListsItemListItem">
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Анализ деятельности и актуальных сайтов конкурентов в интернете</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Разработка технического прототипа, УТП, копирайтинг</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Разработка дизайна страниц</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Мобильная адаптация под все устройства</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Подключение сервиса “Яндекс Метрика” с отслеживанием целей</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Интеграция с платформой 1С битрикс управление сайтом</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--grey bullet--small"></div>
+                          <p>Обучение ответственных сотрудников компании администрированию сайта</p>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="info__contentBottomLeftListsItem">
+                      <h3 class="info__contentBottomLeftListsItemTitle infoTitle infoTitle--small">Результат</h3>
+                      <ul class="info__contentBottomLeftListsItemList">
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--small"></div>
+                          <p>Современный продающий сайт</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--small"></div>
+                          <p>Высокая конверсия</p>
+                        </li>
+                        <li class="info__contentBottomLeftListsItemListItem"> 
+                          <div class="bullet bullet--small"></div>
+                          <p>Удобство администрирования</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="info__contentBottomLeftStack">
+                    <h2 class="info__contentBottomLeftStackTitle infoTitle">Стек технологий</h2>
+                    <div class="info__contentBottomLeftStackItems">
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/figma.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">Figma</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/css.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">CSS 3</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/html.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">HTML 5</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/jquery.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">jQuery</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/php.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">PHP 8</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/hab.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">GitHub</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/woo.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">WooCommerce</div>
+                      </div>
+                      <div class="info__contentBottomLeftStackItem"><img class="info__contentBottomLeftStackItemImage" src="assets/images/productsOncePage/wp.svg" alt="Figma" width="50" height="50">
+                        <div class="info__contentBottomLeftStackItemName infoText infoText--500">WordPress</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info__contentBottomRight">
+                <div class="info__contentBottomRightImageWrapper"><img class="info__contentBottomRightImage" src="assets/images/productsOncePage/createdSiteImage.jpg" alt="Figma" width="690" height="1100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <h1 class="visibleHidden">Статистика</h1><img class="offer__decorativeCircle" src="assets/images/utils/circleWithLines.svg" alt="Декоративный круг" width="421" height="421">
+        <div class="container">
+          <div class="titleBlockWithBg">
+            <h2 class="titleWithBg">Давайте поработаем!</h2>
+          </div>
+          <div class="offer__content">
+            <h2 class="offer__contentTitle">Мы уверены, что мы сможем сделать многое для вас, чтобы дать вам хороший результат</h2>
+            <form class="offer__form" action="" method="">
+              <div class="offer__formBody">
+                <div class="offer__formInputs">
+                  <input class="offer__formInput" type="text" placeholder="Ваше имя" name="name">
+                  <input class="offer__formInput" type="tel" placeholder="Ваш телефон" name="tel">
+                </div>
+                <div class="offer__formCheckboxes">
+                  <header class="offer__formCheckboxesHeader">
+                    <h3 class="offer__formCheckboxesTitle">Удобное для вас время звонка (По Московскому времени)</h3>
+                  </header>
+                  <div class="offer__formCheckboxesCols">
+                    <div class="offer__formCheckboxesCol">
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="ten" name="ten">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="ten">
+                          <time datetitme="10:00">10:00 </time>- 
+                          <time datetitme="13:00">13:00</time>
+                        </label>
+                      </div>
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="sixteen" name="sixteen">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="sixteen">
+                          <time datetitme="16:00">16:00 </time>- 
+                          <time datetitme="19:00">19:00</time>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="offer__formCheckboxesCol">
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="thirteen" name="thirteen">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="thirteen">
+                          <time datetitme="13:00">13:00 </time>- 
+                          <time datetitme="16:00">16:00</time>
+                        </label>
+                      </div>
+                      <div class="offer__formCheckboxesWithCustom">
+                        <input class="offer__formCheckbox" type="checkbox" id="notMatter" name="notMatter">
+                        <div class="offer__formCheckboxCustom">
+                          <div class="offer__formCheckboxCustomFillWrapper">
+                            <div class="offer__formCheckboxCustomFill"></div>
+                          </div>
+                        </div>
+                        <label class="offer__formCheckboxLabel" for="notMatter">
+                          <p>Не имеет значения</p>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="offer__formButtonBlock"><a class="fillingButton fillingButton--infoOffer" href="blog.html">
+                    <svg class="fillingButton__svg" viewBox="0 0 204 204">
+                      <circle class="fillingButton__svg-circle fillingButton__svg-circle--infoOffer" cx="102" cy="102" r="102" fill="transparent"></circle>
+                    </svg>
+                    <div class="fillingButton__circle fillingButton__circle--black-border fillingButton__circle--infoOffer"></div>
+                    <div class="fillingButton__content">
+                      <p><span class="fillingButton__span--smallMargin">Отправить</span></p>
+                    </div></a></div>
+              </div>
+              <footer class="offer__formFooter">
+                <p class="offer__formFooterText">Нажимая кнопку, вы разрешаете обработку персональных данных и соглашаетесь с политикой конфиденциальности.</p>
+              </footer>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__left-side">
@@ -284,4 +487,4 @@
   </div>
 </body>
 <!-- my js-->
-<script src="./assets/js/index--contacts.min.js"></script>
+<script src="./assets/js/indexProductsOncePage.min.js"></script>
