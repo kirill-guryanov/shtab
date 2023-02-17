@@ -1,0 +1,28 @@
+include head
+
+body.hidden
+    include ../../views/utils/preloader
+    include ../../views/utils/burgerMenu
+
+    include ../../views/circle/circle
+          
+    include ../../views/header/header 
+    #butter
+        main
+            include ../../views/index/intro
+            include ../../views/index/about-us
+            include ../../views/index/services
+            include ../../views/index/products
+            include ../../views/index/reviews
+            include ../../views/index/blog
+        include ../../views/footer/footer
+
+// swiper script
+script( src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" )
+// splide script
+script( src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" )
+script( src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js" )
+// aos
+script( src="https://unpkg.com/aos@next/dist/aos.js" )
+// my js
+script( src="./assets/js/index.min.js" )
